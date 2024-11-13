@@ -1,0 +1,43 @@
+.medicine-report {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .medicine-report form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .medicine-report form label {
+    margin-top: 10px;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  
+  .medicine-report form input,
+  .medicine-report form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .medicine-report form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .medicine-report form button:hover {
+    background-color: #45a049;
+  }
+  .medicine-report h1{
+    color: aliceblue;
+  }

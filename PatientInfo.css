@@ -1,0 +1,46 @@
+.patient-info {
+    margin: 2rem;
+    height: 100vh;
+  }
+  .patient-info h1{
+    color: aliceblue;
+  }
+  .patient-info form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .patient-info form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .patient-data
+  {
+    margin-top: 30px;
+    display: grid;
+    color: aliceblue;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .patient-info form input,
+  .patient-info form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .patient-info form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .patient-info form button:hover {
+    background-color: #0069d9;
+  }
+  

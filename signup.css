@@ -1,0 +1,8 @@
+function College()
+{
+    const[CName,setCollege]=useState("SKCET");
+    const[year,setYear]=useState("2000";
+    const[Department,setDept]=useState("IT");
+    return(
+    )
+}
